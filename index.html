@@ -1,61 +1,291 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
   <title>Vídeo e conteúdo de texto</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="./estilos/styles.css">
 </head>
+
 <body>
   <header class="cabecalho">
-    <img src="imagens/logo.jpg" class="logo" alt="Logo" class="container__imagem">
-</div>
-</header>
-    <section class="card mx-auto">
-      <h1 class="titulo-principal">Celulas eucarioticas, procarioticas e endossimbiose</h1>
-    <video src="videos/video.mp4" controls type="video/mp4"> </video>
-   </section>
+    <div class="container">
+      <img src="./imagens/logo.jpg" class="logo" alt="Logo" class="container__imagem">
+    </div>
+  </header>
+  <section class="card centralizar">
+    <h1 class="titulo-principal">Células Eucarióticas, Procarióticas e Endossimbiose</h1>
+    <iframe class="video" src="https://www.youtube.com/embed/jQgBmMCVMHY?si=u0813f52FM47A3e2"></iframe>
+</section>
 
-   <section class="tópicos">
+  <section class="tópicos mt-5" id="topicos">
     <h2 class="tópicos__titulo">TÓPICOS</h2>
     <ul class="tópicos__lista">
-        <li class="tópicos__item">
-            <a href="#celula_eucarionte" class="tópicos__link">Celula Eucarionte</a>
-        </li>
-        <li class="tópicos__item">
-            <a href="#celula_procarionte" class="tópicos__link">celula procarionte</a>
-        </li>
-        <li class="tópicos__item">
-            <a href="#endossimbiose" class="tópicos__link">Endossimbiose</a>
-        </li>
+      <li class="tópicos__item">
+        <a href="#introducao" class="tópicos__link">Introdução</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#celula_eucarionte" class="tópicos__link">Célula Eucarionte</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#celula_procarionte" class="tópicos__link">Célula Procarionte</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#endossimbiose" class="tópicos__link">Endossimbiose</a>
+      </li>
     </ul>
-    
-   </section>
-   <main class="conteudo-principal-texto">
+
+  </section>
+  <main class="conteudo-principal-texto container">
+    <div class="card centralizar">
+      <iframe class="video" src="https://www.youtube.com/embed/0uCEb3fMdgA?si=TyrqkJf8LeO7E1zm"></iframe>
+    </div>
+    <section id="Introducao">
+      <h2 class="titulo-topico">Introdução</h2>
+      <p class="conteudo-celula">O objetivo deste projeto é apresentar as diferenças morfológicas e funcionais das
+        células procarióticas e eucarióticas. Algumas dessas diferenças se dão pela presença do núcleo celular e de
+        organelas membranosa na célula eucarionte, características tais que não fazem
+        parte da célula procarionte. Ademais, vamos relacionar a
+        endossimbiose (relação ecológica no qual um organismo vive no interior de outro) ao processo de surgimento das
+        células eucarióticas.
+      </p>
+    </section>
+
+    <div class="card centralizar margin-video">
+      <iframe class="video" src="https://www.youtube.com/embed/qGAwL3xcr5Q?si=gTlTaLACbRHx5P2s"></iframe>
+    </div>
     <section id="celula_eucarionte">
-     <h2 class="titulo-topico">Celula Eucarionte</h2>
-      <p class="conteudo-celula">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptate non assumenda earum dolor nostrum natus sit alias reprehenderit repellat, delectus accusantium deleniti. Aut odit nihil ut cumque cum libero!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quam ut accusamus quisquam eveniet, earum ab reprehenderit similique repellendus aliquam reiciendis voluptate cum consectetur voluptas, saepe molestias repudiandae quo aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nostrum assumenda sit error optio delectus. Quisquam fuga totam harum, minus molestias ullam consequatur cumque tempore vero, officiis similique perspiciatis esse. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, vel! Maiores quia labore placeat libero. Ut totam, vel, fugiat nostrum laboriosam asperiores quis praesentium sit fugit repellendus aliquid tempore? Earum?</p>
-      <div class="div-imagem">
-        <img class="imagens-exemplo" src="./imagens/celula.JPEG" alt="Imagem do primeiro topico">
-      </div>    
-    </section>
-    <section id="celula_procarionte">
-      <h2 class="titulo-topico">Celula Procarionte</h2>
-      <p class="conteudo-celula">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, excepturi labore asperiores fuga tempore at illum modi? Necessitatibus doloremque minus ut officia inventore nesciunt quam eveniet iusto quasi velit. Accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quam ut accusamus quisquam eveniet, earum ab reprehenderit similique repellendus aliquam reiciendis voluptate cum consectetur voluptas, saepe molestias repudiandae quo aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nostrum assumenda sit error optio delectus. Quisquam fuga totam harum, minus molestias ullam consequatur cumque tempore vero, officiis similique perspiciatis esse. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, vel! Maiores quia labore placeat libero. Ut totam, vel, fugiat nostrum laboriosam asperiores quis praesentium sit fugit repellendus aliquid tempore? Earum?</p>
-      <div class="div-imagem">
-        <img class="imagens-exemplo" src="./imagens/celula.JPEG" alt="Imagem da terceira parte">
+      <h2 class="titulo-topico">Célula Eucarionte</h2>
+      <p class="conteudo-celula">Células eucariontes são células que apresentam um núcleo definido, ou seja, o material
+        genético dessas células está envolvido pelo envelope nuclear. Elas são mais complexas do que as células
+        procariontes, que não possuem núcleo nem todas as organelas das células eucariontes.
+      </p>
+      <p class="conteudo-celula">As células eucariontes são encontradas em todos os organismos multicelulares, como
+        plantas, animais e fungos. Elas também podem ser unicelulares, como os protozoários.
+      </p>
+      <div class="div-imagem col-md-6">
+        <img class="img-fluid" src="./imagens/celula-eucarionte.webp" alt="Imagem do primeiro tópico">
       </div>
+      <p class="d-inline-flex gap-1">
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#caracteristicas"
+          aria-expanded="false" aria-controls="collapseExample">
+          Clique aqui para ver mais sobre as características
+        </button>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#organelas"
+          aria-expanded="false" aria-controls="collapseExample">
+          Clique aqui para saber mais sobre as organelas
+        </button>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#funcoes"
+          aria-expanded="false" aria-controls="collapseExample">
+          Clique aqui para saber mais sobre as funções
+        </button>
+      </p>
+      <div class="collapse" id="caracteristicas">
+        <div class="card card-body">
+          <p class="conteudo-celula">Presença de núcleo: o material genético está envolvido por uma membrana nuclear,
+            que o protege de danos e regula sua expressão.</p>
+          <p class="conteudo-celula">Presença de organelas: as células eucariontes possuem organelas membranosas, que
+            são estruturas especializadas em realizar funções específicas.
+          </p>
+          <p class="conteudo-celula">Citoplasma organizado: o citoplasma das células eucariontes é organizado em
+            compartimentos, que facilitam as atividades celulares.
+          </p>
+        </div>
+      </div>
+      <div class="collapse" id="organelas">
+        <div class="card card-body">
+          <p class="conteudo-celula">Núcleo
+            O núcleo é a organela mais importante da célula. Ele é responsável por armazenar o material genético da
+            célula, o DNA, que contém as instruções para a construção e funcionamento da célula. O núcleo é cercado por
+            uma membrana nuclear, que o protege do resto da célula.
+          </p>
+          <p class="conteudo-celula">Retículo endoplasmático
+            O retículo endoplasmático é um sistema de membranas interconectadas que se estende por todo o citoplasma da
+            célula. Ele é responsável por uma variedade de funções, incluindo a síntese de proteínas, o transporte de
+            substâncias e a produção de lipídios.
+          </p>
+          <p class="conteudo-celula">Complexo golgiense
+            O complexo golgiense é um conjunto de membranas achatadas que se localizam próximo ao núcleo da célula. Ele
+            é responsável pelo processamento e empacotamento de proteínas e lipídios para o transporte para outras
+            partes da célula ou para fora da célula.
+          </p>
+          <p class="conteudo-celula">Lisossomos
+            Os lisossomos são vesículas que contêm enzimas digestivas. Eles são responsáveis pela digestão de
+            substâncias externas à célula, como alimentos e bactérias, e também podem digerir organelas danificadas ou
+            desgastadas.
+          </p>
+          <p class="conteudo-celula">Peroxissomos
+            Os peroxissomos são organelas que contêm enzimas que produzem peróxido de hidrogênio, uma substância tóxica.
+            Essas enzimas também são responsáveis por quebrar o peróxido de hidrogênio em água e oxigênio.
+          </p>
+          <p class="conteudo-celula">Centríolos
+            Os centríolos são estruturas cilíndricas que se localizam no citoplasma da célula. Eles são responsáveis
+            pela formação do fuso acromático, que é necessário para a divisão celular.
+          </p>
+          <p class="conteudo-celula">Vacúolos
+            Os vacúolos são bolsas membranosas que armazenam fluidos, nutrientes e resíduos. Os vacúolos são maiores em
+            células vegetais, onde podem ocupar grande parte do citoplasma.
+          </p>
+          <p class="conteudo-celula">Cloroplastos
+            Os cloroplastos são organelas encontradas apenas em células vegetais. Eles são responsáveis pela
+            fotossíntese, um processo que converte a energia da luz solar em energia química.
+          </p>
+          <p class="conteudo-celula">Ribossomos
+            Os ribossomos são estruturas pequenas e não membranosas que são responsáveis pela síntese de proteínas. Eles
+            podem ser encontrados livres no citoplasma ou associados ao retículo endoplasmático rugoso.
+          </p>
+          <p class="conteudo-celula">Mitocôndrias: organelas responsáveis pela respiração celular, um processo que
+            produz energia para a célula.</p>
+            <div class="div-imagem col-md-6">
+              <img class="img-fluid" src="./imagens/organelas.webp" alt="imagem de organelas">
+            </div>
+        </div>
+      </div>
+      <div class="collapse" id="funcoes">
+        <div class="card card-body">
+          <p class="conteudo-celula">As células eucariontes são essenciais para a vida. Elas são responsáveis por todas
+            as funções dos
+            organismos vivos, incluindo a nutrição, a respiração, a reprodução e o crescimento, sendo exemplos as
+            células em seres vivos como animais, vegetais e fungos.
+          </p>
+          <p class="conteudo-celula">Células animais: são encontradas em todos os organismos animais, como mamíferos,
+            aves, peixes, insetos e
+            vermes.</p>
+          <p class="conteudo-celula">Células vegetais: são encontradas em todas as plantas, incluindo árvores, flores e
+            gramíneas.</p>
+          <p class="conteudo-celula">Células fúngicas: são encontradas em todos os fungos, como cogumelos, leveduras e
+            bolores.</p>
+        </div>
+      </div>
+
     </section>
+
+    <div class="card centralizar margin-video">
+      <iframe class="video" src="https://www.youtube.com/embed/TaGoCdyJ1Yk?si=4MIxrwRk7pkIIl_v"></iframe>
+    </div>
+    <section id="celula_procarionte">
+      <h2 class="titulo-topico">Célula Procarionte</h2>
+      <p class="conteudo-celula">As células procarióticas, também conhecidas como células procariontes, são células
+        simples que não possuem núcleo definido. O material genético delas está disperso no citoplasma, que é o fluido
+        que ocupa a maior parte da célula.
+      </p>
+      <p class="conteudo-celula">As células procarióticas são encontradas em todos os ambientes da Terra, incluindo
+        ambientes extremos, como fontes termais e oceanos profundos. Elas são responsáveis por uma grande variedade de
+        funções, incluindo a decomposição de matéria orgânica, a fixação de nitrogênio e a produção de alimentos.
+      </p>
+      <p class="conteudo-celula">As células procarióticas podem ser divididas em dois grupos principais: bactérias e
+        cianobactérias. As bacterias são os procariontes mais comuns. Elas são encontradas em todos os ambientes da
+        Terra e desempenham uma variedade de funções, já as cianobactérias são procariontes fotossintéticos. Elas são
+        responsáveis pela produção de oxigênio na Terra.</p>
+        <div class="div-imagem col-md-6">
+          <img class="img-fluid" src="./imagens/celula-procarionte.webp" alt="Celula procarionte">
+        </div>
+      <p class="d-inline-flex gap-1">
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+          data-bs-target="#caracteristicas-procarionte" aria-expanded="false" aria-controls="collapseExample">
+          Clique aqui para saber mais sobre as características
+        </button>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#funcoes-procarionte"
+          aria-expanded="false" aria-controls="collapseExample">
+          Clique aqui para saber mais sobre as funções
+        </button>
+      </p>
+      <div class="collapse" id="caracteristicas-procarionte">
+        <div class="card card-body">
+          <p class="conteudo-celula">Ausência de núcleo, pois o material genético está disperso no citoplasma.</p>
+          <p class="conteudo-celula">A ausência de organelas membranosas, já que as células procarióticas não possuem
+            organelas membranosas, como mitocôndrias, retículo endoplasmático e complexo de Golgi.
+          </p>
+          <p class="conteudo-celula">Tamanho reduzido, visto que as células procarióticas são geralmente menores do que
+            as células eucariontes.
+          </p>
+          <p class="conteudo-celula">O cescimento e divisão simples, pois as células procarióticas crescem e se dividem
+            por um processo chamado fissão binária, no qual a célula original se divide em duas células.
+          </p>
+        </div>
+      </div>
+      <div class="collapse" id="funcoes-procarionte">
+        <div class="card card-body">
+          <p class="conteudo-celula">Decomposição de matéria orgânica: as células procarióticas são responsáveis pela
+            decomposição de matéria orgânica, como plantas e animais mortos. Esse processo é essencial para o ciclo do
+            carbono e para a reciclagem de nutrientes.
+          </p>
+          <p class="conteudo-celula">Fixação de nitrogênio: as células procarióticas são capazes de fixar o nitrogênio
+            atmosférico, tornando-o disponível para outros organismos. Esse processo é essencial para a produção de
+            proteínas.
+          </p>
+          <p class="conteudo-celula">Produção de alimentos: algumas células procarióticas, como as cianobactérias, são
+            fotossintéticas. Elas são responsáveis pela produção de oxigênio e pela fixação de carbono.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="card centralizar margin-video">
+      <iframe class="video" src="https://www.youtube.com/embed/GlfXjdcuSoo?si=Y6EKNlrgel6sS8Ww"></iframe>
+    </div>
+
     <section id="endossimbiose">
       <h2 class="titulo-topico">Endossimbiose</h2>
-      <p class="conteudo-celula">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, excepturi labore asperiores fuga tempore at illum modi? Necessitatibus doloremque minus ut officia inventore nesciunt quam eveniet iusto quasi velit. Accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quam ut accusamus quisquam eveniet, earum ab reprehenderit similique repellendus aliquam reiciendis voluptate cum consectetur voluptas, saepe molestias repudiandae quo aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nostrum assumenda sit error optio delectus. Quisquam fuga totam harum, minus molestias ullam consequatur cumque tempore vero, officiis similique perspiciatis esse. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, vel! Maiores quia labore placeat libero. Ut totam, vel, fugiat nostrum laboriosam asperiores quis praesentium sit fugit repellendus aliquid tempore? Earum?</p>
-      <div class="div-imagem">
-        <img class="imagens-exemplo" src="./imagens/celula.JPEG" alt="Imagem da terceira parte">
-    </div>
+      <p class="conteudo-celula">Endossimbiose é um tipo de associação entre dois organismos vivos em que um deles vive
+        dentro do outro. Essa associação pode ser benéfica para ambos os organismos ou para apenas um deles.
+      </p>
+      <p class="conteudo-celula">A endossimbiose é um processo importante na evolução dos seres vivos. É a hipótese mais
+        aceita para explicar a origem dos cloroplastos e mitocôndrias, organelas presentes nas células eucarióticas.
+      </p>
+      <div class="div-imagem col-md-6">
+        <img class="img-fluid" src="./imagens/endosimbiose1.jpg" alt="Imagem do primeiro tópico">
+      </div>
+      <p class="d-inline-flex gap-1">
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#originou"
+          aria-expanded="false" aria-controls="collapseExample">
+          Clique aqui para saber como se originou
+        </button>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+          data-bs-target="#importancia-endossimbiose" aria-expanded="false" aria-controls="collapseExample">
+          Clique aqui para saber mais sobre a importância </button>
+      </p>
+      <div class="collapse" id="originou">
+        <div class="card card-body">
+          <p class="conteudo-celula">A teoria da endossimbiose sugere que os plastídeos e mitocôndrias eram
+            originalmente organismos procariontes que foram incorporados em células eucarióticas ancestrais. Esses
+            organismos procariontes foram capazes de sobreviver e se adaptar ao ambiente da célula eucarionte, e
+            eventualmente se tornaram organelas da célula eucariótica.</p>
+          <p class="conteudo-celula">Informações que corroboram com isso são o fato de cloroplastos e mitocôndrias,
+            organelas presentes nas células eucarióticas, possuem características semelhantes às de bactérias
+            procariontes. Essas características, que incluem similaridade estrutural, capacidade de autoduplicação e
+            presença de genes bacterianos, sugerem que cloroplastos e mitocôndrias podem ter se originado a partir de
+            organismos procariontes que foram incorporados em células eucarióticas ancestrais.</p>
+        </div>
+      </div>
+      <div class="collapse" id="importancia-endossimbiose">
+        <div class="card card-body">
+          <p class="conteudo-celula">A endossimbiose foi fundamental para o surgimento dos eucariontes, pois permitiu
+            que esses organismos obtivessem energia e nutrientes de forma mais eficiente. A endossimbiose também é
+            importante para a sobrevivência de muitos organismos, pois
+            permite que eles obtenham nutrientes e proteção de outros organismos. Além disso, ainda melhora processos como respiração celular, produção de ATP e fotossintese.
+          </p>
+        </div>
+      </div>
     </section>
   </main>
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  
+  <hr/>
+  <footer class="rodapé">
+      <h2 class="rodapé__titulo">IFRN - BioMaquete</h2>
+      <h2 class="rodapé__titulo">Professora de Biologia - Andrea Pereira</h2>
+  </footer>
+  <a href="#topicos"><i class="fas seta fa-arrow-up position-fixed top-100 start-100 translate-middle"></i> </a>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
