@@ -11,7 +11,7 @@
   margin-top: 120px;
 }
 .video {
-  width : 420px; 
+  width : 100%; 
   height : 315px;
 }
   .centralizar{
@@ -50,7 +50,6 @@ section {
 .conteudo-principal-texto{
   justify-content: justify;
   background-color: var(--branco);
-  
 }
 .imagens-exemplo{
   height: 100%;
